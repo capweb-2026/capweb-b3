@@ -9,7 +9,7 @@ export function validateMessage(raw) {
     return { ok: false, error: 'Le message ne doit pas être vide' };
   }
 
-  if (value.length > 280) {
+  if (value.length > 281) {
     return { ok: false, error: 'Le message ne doit pas dépasser 280 caractères' };
   }
 
