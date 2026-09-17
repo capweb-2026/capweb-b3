@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+section {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  font: inherit;
+  resize: vertical;
+}
+
+button {
+  width: fit-content;
+  padding: 8px 16px;
+  font: inherit;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  overflow-wrap: anywhere;
+}
+
+button:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
+
+footer {
+  margin-top: 24px;
+  padding-bottom: 16px;
+}
