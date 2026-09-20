@@ -5,7 +5,7 @@
     if (msg.role === 'user') {
       li.textContent = `Vous : ${msg.text}`;
     } else {
-      li.textContent = `Cap Web : ${msg.text}`;
+      li.textContent = `BalconVert : ${msg.text}`;
     }
 
     return li;
